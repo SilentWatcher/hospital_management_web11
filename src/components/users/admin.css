@@ -1,0 +1,129 @@
+/* Admin CSS */
+.admin_main{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+.adimin_sidebar{
+    background-color: #6bc1ccb6;
+    min-width: 25vw;
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 2px 0px 11px 4px #0000004d;
+    
+}
+
+.adimin_sidebar ul{
+    margin-top: 5rem;
+    text-align: left;
+    margin-inline: 2rem;
+    list-style: none;
+    
+    
+    
+}
+.adimin_sidebar ul li{
+    margin-bottom: 1rem;
+    color: rgb(4, 11, 73);
+    cursor: pointer;
+    font-weight: 700;
+    padding: .2rem;
+    border-radius: .4rem;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.adimin_sidebar ul li:hover{
+    background: #7197e259;
+    color: rgb(19, 25, 83);
+
+}
+.admin_detail p{
+ margin-top: 1rem;
+}
+.admin_detail h2{
+ margin-top: 1%;
+}
+.admin_detail img{
+
+    width: 10rem;
+    border-radius: 100%;
+    border: 20px solid #8ae7dfda;
+    margin-top: 5rem;
+    box-shadow: 0px 3px 7px 0px #0000004d;
+}
+
+.admin_dash{
+
+    min-width: 75vw;
+    
+}
+.admin_dash .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6bc1ccb6;
+    padding: .4rem;
+}
+.admin_dash .logo p{
+    margin: 0;
+    padding: .4rem;
+    background: #333333;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+.admin_dash>h3{
+    
+    background-color:#8ae7dfda;
+    /* min-width: 100%; */
+    padding: 1rem;
+}
+
+.main_info{
+    color: rgb(236, 238, 243);
+    margin-inline: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.25rem ;
+    
+
+    margin-top: 5rem;
+    border-radius:.4rem;
+}
+.main_info div{
+    padding: 2rem 1rem;
+    display: flex;
+    border-radius: .4rem;
+    position: relative;
+}
+.main_info svg{
+    padding: .2rem;
+    background: #ffffff54;
+    border-radius:.4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+
+}
+.info_1{
+    background-color:#FF1905 ;
+
+
+}
+.info_2{
+    background-color:#47403B ;
+
+}
+.info_3{
+    background-color:#0C59F6 ;
+
+}
+.main_info .info_box{
+    display: flex;
+    flex-direction: column;
+
+}

@@ -1,0 +1,125 @@
+
+header{
+
+    /* margin-inline: 2rem; */
+    padding-inline: 2rem;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.096);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 1rem;
+    z-index: 1;
+
+
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+ 
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+    padding: .4rem;
+    color: #2d0331;
+    border-radius: .4rem;
+    transition: all .4s ease-in-out;
+
+}
+
+.custom_nav_link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.logoImg{
+    margin: .6rem;
+}
+
+
+
+nav ul li:hover{
+
+
+    background-image: linear-gradient(to bottom, #a9a0d4cc, #a8f7e965);
+    border-bottom: solid 2px #176780;
+    color: #2d0331;
+
+}
+
+header .blob{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50rem;
+
+    z-index: -1;
+    margin: 0;
+    
+}
+
+/* General button styling */
+.login_register{
+    margin: 0rem;
+
+}
+.login_register  button{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+
+    border: none;
+    cursor: pointer;
+    /* box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.15); */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-right: 1rem;
+}
+
+.login_register button:hover{
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Sign In button styling */
+.login_register .sign-in {
+    /* background: linear-gradient(to right, #83b7d5, #580463bd); */
+    background: linear-gradient(to right, #9083D5, #29a590bd);
+
+    border-radius: 2rem;
+    border: none;
+
+    & span{
+        background: #ffffff ;
+        margin: 2px;
+        padding: .8rem 2rem;
+        border-radius: inherit;
+        display: inline-block;
+
+    }
+
+
+}
+
+/* Register button styling */
+.login_register .register {
+
+    /* background: linear-gradient(to right, #9083D5, #33d4b9bd); */
+    background-image: linear-gradient(to right, #200757ab, #2a00fa87);
+    padding: .8rem 2rem;
+    border-radius: 25px;
+    color: white;
+}

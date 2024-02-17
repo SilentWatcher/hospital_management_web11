@@ -1,0 +1,40 @@
+.aboutus, .aboutus_bio{
+    min-height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    
+}
+
+
+.aboutus  .aboutus_right  h1,p{
+
+    max-width: 30rem;
+    margin-inline:auto ;
+    margin-bottom: 2rem;
+} 
+
+
+.aboutus  .aboutus_right  h1{
+    font-size: 3rem;
+}
+
+.aboutus .aboutus_left #onlineDoctorImg{
+    width: 45vw;
+    filter: drop-shadow(.7em 0em 3em #006b799d);
+}
+
+/* ABOUT BIO  */
+
+.aboutus_bio #onlinePatient{
+    width: 50vw;
+    filter: drop-shadow(.7em 0em 3em #006b799d);
+}
+
+.aboutus_bio h1{
+    font-size: 2rem;
+}

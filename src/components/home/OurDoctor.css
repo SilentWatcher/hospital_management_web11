@@ -1,0 +1,54 @@
+
+
+
+.OurDoctor{
+    background: #5757571a;
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: .6rem;
+    background: rgba(42, 0, 61, 0.082);
+    border-radius: .6rem;
+    box-shadow: 2px 2px 0px #0000001f;
+    transition: all .3s ease-out;
+}
+
+.OurDoctor:hover{
+    background-image: linear-gradient(45deg, #000000bf , rgb(100, 96, 96),#000000bf,#000000bf);
+    color: white;
+    cursor: pointer;
+
+}
+
+.OurDoctor:hover h1 {
+    color: #000000bf;
+  }
+.OurDoctor:hover p {
+color: burlywood;
+}
+
+
+
+.OurDoctor img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin-inline: .4rem;
+
+
+}
+
+.OurDoctor div p{
+    color: grey;
+    font-size: .8rem;
+    margin-top: .4rem;
+}
+.OurDoctor div p:hover{
+    color: burlywood;
+}
+
+.OurDoctor div h3{
+    font-size: 1.2rem;
+    
+}

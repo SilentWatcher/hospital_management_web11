@@ -1,0 +1,180 @@
+
+
+#hero{
+    min-height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+
+}
+
+
+#hero .home_info{
+
+    padding: 2rem auto;
+}
+
+#hero div h1,p{
+
+    max-width: 30rem;
+    margin-inline:auto ;
+    margin-bottom: 2rem;
+}
+
+#hero div h1{
+    font-size: 3rem;
+    /* background: linear-gradient(to right, #9083D5, #33d4b9bd); */
+    background-image: linear-gradient(to right, #1a004f, #8a7bd4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+
+    /* text-shadow: 1em 1em 1em  black; */
+    /* filter: drop-shadow( 1px 1px 1px  black); */
+    filter: drop-shadow( -11px 2px 20px rgb(95, 208, 253));
+
+
+}
+#hero .doctors{
+    /* height: 60vh; */
+    width: 40vw;
+    filter: drop-shadow(.7em 0em 3em #006b799d);
+}
+#hero .home_doctor{
+    
+    align-self: self-end;
+}
+
+
+.call_to_action{
+    font-family: Arial, sans-serif;
+    font-size: 1.25rem;
+
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: 1rem;
+
+    /* background: linear-gradient(to right, #9083D5, #33d4b9bd); */
+    background-image: linear-gradient(to right, #200656, #004fc8);
+
+    padding: .8rem 2rem;
+    border-radius: .4rem;
+    font-weight: 500;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.call_to_action:hover{
+    /* background: linear-gradient(to right, #5ff879, #08e2bebd); */
+    /* background: linear-gradient(to right, #98c2d8, #0154ce); */
+    background-image: linear-gradient(to right, #98c2d8, #dceaff);
+    transform: scale(1.1);
+    color: #1a004f;
+
+
+}
+
+/* SECTION OUR DOCTORS  */
+.our_doctors{
+    min-height: 100vh;
+ background: #cbf0fca1;
+ margin-inline: 1rem;
+ padding: 2rem;
+}
+.our_doctors h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    background-image: linear-gradient(to right, #000000,#000000, #8a7bd4,#8a7bd4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    filter: drop-shadow( -11px 2px 20px rgb(95, 208, 253));
+}
+
+.our_doctors .doct_component{
+    min-height: 70vh;
+    margin-top: 2rem;
+    /* background-image:linear-gradient(45deg, #cacaca1e, #1000352a); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.5rem;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    padding-block: auto;
+}
+
+
+/* ContactForm.css */
+
+.send_message{
+    min-height: 90vh;
+    min-width: auto;
+    /* background: rgba(121, 121, 121, 0.151); */
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+
+}
+.send_message img{
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+}
+.send_message h1{
+    text-align: center;
+    color: #505050;
+
+}
+.send_message .contact_form {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 1.25rem;
+    border: 1px solid #ccc; 
+    border-radius: .4rem;
+    
+    background-color: #d6cfff75;
+
+    box-shadow:  2px 2px 5px #ccc;
+
+  }
+  
+  .send_message .form_row {
+    display: flex;
+    justify-content: space-between;
+    gap: .6rem;
+    margin-bottom: .8rem;
+  }
+  
+  .send_message input,
+  .send_message textarea,
+  .send_message button {
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .send_message button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .send_message button:hover {
+    background-color: #0056b3;
+  }
+  

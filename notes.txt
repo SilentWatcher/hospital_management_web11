@@ -1,0 +1,73 @@
+google font
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+:root {
+    /* Primary Colors */
+    --primary-background-color: #f4f8fb;
+    --primary-text-color: #333;
+  
+    /* Accent Colors */
+    --accent-color-1: #cff1f7;
+    --accent-color-2: #56d861;
+  
+    /* Header and Navigation */
+    --header-background-color: #ffffff;
+    --header-text-color: #333;
+  
+    /* Navigation Menu */
+    --menu-background-color: #e0f2f1;
+    --menu-text-color: #333;
+  
+    /* Buttons */
+    --button-background-color: #5da6d4;
+    --button-text-color: #fff;
+  
+    /* Forms and Input Fields */
+    --input-background-color: #ffffff;
+    --input-border-color: #ccc;
+  
+    /* Success and Error Messages */
+    --success-color: #4caf50;
+    --error-color: #ff5252;
+  
+    /* Icons */
+    --icon-color: #555;
+
+    /* Font Family */
+    --font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --base-font-size: 16px; /* Define a base font size in pixels */
+    /* Font Sizes in rem */
+    --font-size-xs: 0.75rem; /* Extra small */
+    --font-size-sm: 0.875rem; /* Small */
+    --font-size-md: 1rem; /* Medium (standard) */
+    --font-size-lg: 1.25rem; /* Large */
+    --font-size-xl: 1.5rem;
+
+    /* Font Weight */
+    --base-font-size: 16px;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  }
+
+  body{
+    background: var(--primary-background-color);
+    font-family: var(--font-family);
+  }

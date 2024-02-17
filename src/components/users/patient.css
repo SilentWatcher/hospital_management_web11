@@ -1,0 +1,112 @@
+
+
+.patient-dashboard {
+    min-width: 75vw;
+    font-family: "Montserrat", sans-serif;
+}
+.patient-dashboard .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6bc1ccb6;
+    padding: .4rem;
+}
+.patient-dashboard .logo p{
+    margin: 0;
+    padding: .4rem;
+    background: #333333;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.patient_page{
+    display: flex;
+}
+.sidebar{
+    background-color: #6bc1ccb6;
+    min-width: 25vw;
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 2px 0px 11px 4px #0000004d;
+}
+.sidebar p{
+    margin-top: 1rem;
+}
+.sidebar img{
+    width: 10rem;
+    border-radius: 100%;
+    border: 20px solid #8ae7dfda;
+    margin-top: 5rem;
+    box-shadow: 0px 3px 7px 0px #0000004d;
+}
+.sidebar h1{
+    margin: 1rem;
+}
+.sidebar ul{
+    margin-top: 5rem;
+    text-align: left;
+    margin-inline: 2rem;
+    list-style: none;
+    
+    
+    
+}
+.sidebar ul li{
+    margin-bottom: 1rem;
+    color: rgb(4, 11, 73);
+    cursor: pointer;
+    font-weight: 700;
+    padding: .2rem;
+    border-radius: .4rem;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+.sidebar ul li:hover{
+    background: #7197e259;
+    color: rgb(19, 25, 83);
+
+}
+.sidebar ul li{
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+    list-style: none;
+}
+.sidebar ul li i{
+    margin-right: 0.5rem;
+}
+
+/* card styling */
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1.25rem ;
+margin-top: 8rem;
+margin-inline: 1.25rem;
+}
+
+.container .card{
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: .4rem;
+    color: white;
+    font-size: 1.25rem;
+    position: relative;
+    box-shadow: 0px 0px 15px 0px #4c4c4c;
+
+
+}
+.container .card i{
+    padding: .8rem;
+    background: #ffffff54;
+    border-radius:.4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+}
